@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
             Destroy(Instance);
         }
     }
+    public void GameDone(int gainedScore)
+    {
+        Debug.Log("Gained Score: " + gainedScore);
+    }
     void Start()
     {
         
