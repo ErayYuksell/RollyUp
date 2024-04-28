@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public bool hasTheGameStart = false;
+    public bool hasTheGameEnd = false;
     private void Awake()
     {
         if (Instance == null)
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     }
     public void GameDone(int gainedScore)
     {
+        hasTheGameEnd = true;
         Debug.Log("Gained Score: " + gainedScore);
     }
     void Start()
