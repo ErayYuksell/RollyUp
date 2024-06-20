@@ -1,4 +1,3 @@
-
 # Game Views
 ![Screenshot_1](https://github.com/ErayYuksell/RollyUp/assets/108815807/2381b7db-2a0b-48d1-a864-a2d637ed0570)
 ![Screenshot_2](https://github.com/ErayYuksell/RollyUp/assets/108815807/f97b860e-246a-4df2-9e45-b65f2abb0561)
